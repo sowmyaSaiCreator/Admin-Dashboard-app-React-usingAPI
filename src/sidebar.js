@@ -39,12 +39,12 @@ function Sidebar() {
                 <Link className="nav-link collapsed" to="/user" data-toggle="collapse"
                     aria-expanded="true" aria-controls="collapseTwo">
                     <i className="fas fa-fw fa-user"></i>
-                    <span class="pad-2">List Users</span>
+                    <span className="pad-2">List Users</span>
                 </Link>
                 <Link className="nav-link collapsed" to="/createuser" data-toggle="collapse"
                     aria-expanded="true" aria-controls="collapseTwo">
                     <i className="fas fa-fw fa-user-plus"></i>
-                    <span class="pad-5"> Create User</span>
+                    <span className="pad-5"> Create User</span>
                 </Link>
               
                 <div id="collapseTwo" className="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
